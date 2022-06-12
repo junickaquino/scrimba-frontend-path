@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #5E8C61;
+    color: #3B322C;
+    border-bottom: 6px solid #5E8C61;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    transition-property: background, box-shadow, transform;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+
+.card:hover {
+    background: #94E8B4;
+    box-shadow: 10px 20px 10px 0px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+
+.border-brown {
+    border: 5px dashed #554348;
+}
