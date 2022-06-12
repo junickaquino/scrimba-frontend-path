@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, p, body {
+    margin: 0;
+}
+
+.hero-section {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title, .hero-subtitle {
+    padding: 8px 46px;
+    border-radius: 15px;
+    font-weight: normal;
+}
+
+.hero-title {
+    background-color: #FFD100;
+    margin-bottom: 9px;
+    font-size: 32px;
+}
+
+.hero-subtitle {
+    background-color: #FFEE32;
+    max-width: 412px;
+    font-size: 18px;
+}
+
+.activities-section {
+    padding: 25px 0;
+    background-color: #D6D6D6;
+}
+
+.activities-title {
+    margin-bottom: 20px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.activity {
+    max-width: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.activity-name {
+    font-size: 16px;
+}
+
+.activity-desc {
+    font-size: 14px;
+}
+
+.guide-section {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 400px;
+    background-color: #FFD100;
+    margin: 50px auto;
+    padding: 23px 13px;
+    border-radius: 10px;
+    transition: 200ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-in-out;
+}
+
+.guide-section:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 0px #333533;
+}
+
+.guide-img {
+    width: 180px;
+    height: 258px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.guide-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.guide-title {
+    font-size: 24px;
+}
+
+.guide-quote {
+    font-size: 15px;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
